@@ -24,3 +24,4 @@ yarn-error.log*
 
 # npm package lock
 package-lock.json
+aws-keys
