@@ -8,6 +8,10 @@ before_install:
 script:
   - docker run itsmrakhil/docker-react yarn test --coverage
 
+branches:
+  only:
+    - main
+
 deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
