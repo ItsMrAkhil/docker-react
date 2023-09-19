@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          This is react web page
+          This is react web page built using CRA
         </p>
         <a
           className="App-link"
